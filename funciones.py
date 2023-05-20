@@ -8,7 +8,7 @@ def multipliacion(a,b):
     print(f'la multiplicación de {a}X{b} es igual a {a*b}')
     #comprobación de par
     print(f'Y este resultado es par: {par(a*b)}')
-#evalua un numero es par o impar
+#evalua si un numero es par o impar
 def par(a):
     if (a % 2) == 0:
         return 'par'
